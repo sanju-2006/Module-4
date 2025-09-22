@@ -29,15 +29,19 @@ To write a Python program to take the radius from the user and find the area of 
 
 ```
 
-
+import math
+radius=float(input())
+area=math.pi*radius*radius
+print("Area of circle:",f"{area:.2f}")
 
 ```
 
 ### OUTPUT
 
-
+Area of circle: 452.39
 
 ### RESULT
 
+<img width="615" height="180" alt="image" src="https://github.com/user-attachments/assets/1ae13fb0-e518-4617-a845-b1e0e87f30db" />
 
 
