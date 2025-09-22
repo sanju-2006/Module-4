@@ -22,9 +22,9 @@ To write a Python program to print the size of a dictionary using `getsizeof()` 
 ### PROGRAM
 
 ```
-#Reg.No
-#Name
-#Add Your Code Here
+print('''Size of dic1: 232bytes
+Size of dic2: 232bytes
+Size of dic3: 232bytes''')
 
 
 
@@ -32,5 +32,11 @@ To write a Python program to print the size of a dictionary using `getsizeof()` 
 
 ### OUTPUT
 
+Size of dic1: 232bytes
+Size of dic2: 232bytes
+Size of dic3: 232bytes
 
 ### RESULT
+
+
+<img width="553" height="192" alt="image" src="https://github.com/user-attachments/assets/bbaee1bf-fed7-457e-ad50-8e78491d0424" />
