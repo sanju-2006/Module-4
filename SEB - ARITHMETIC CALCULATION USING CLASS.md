@@ -4,11 +4,13 @@
 ---
 
 ### AIM  
-To write a Python program to perform addition and division operations using a class. The class should be named `Saveetha`, and the function names should be `setvalues` (to set `a` and `b` values), `add`, and `div`. The program should handle the following cases:  
-- `choice 1` → Perform addition  
-- `choice 2` → Perform division  
-- `choice 0` → Exit  
-- For other choices, print 'Invalid choice'
+write a python program to perform modulo and floor division operation using class and if,elif..
+
+note:
+
+class name should be SEC, function name should be setvalues( to se the values of a and b) ,rem and div
+
+case : choice 1 ->perform modulo operation ,choice 2-> perform division ,  choice 0 -> exiting, other choices -> print 'invalid choice'
 
 ---
 
@@ -36,10 +38,34 @@ To write a Python program to perform addition and division operations using a cl
 
 ```
 
-
+class sec:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+        c=1
+        while c!=0:
+            c=int(input())
+            if c==1:
+                print("Result: ",a%b)
+            elif c==2:
+                print("Result: ",int(a/b))
+            elif c==0:
+                print("Exiting!")
+            else:
+                print("Invalid Choice")
+                
+                
+a=int(input())
+b=int(input())
+obj=sec(a,b)
 
 ```
 
 ### OUTPUT
 
+Result:  0
+Exiting!
+
 ### RESULT
+
+<img width="410" height="339" alt="image" src="https://github.com/user-attachments/assets/6df4b16b-4896-4cf8-9864-72b755c615e4" />
