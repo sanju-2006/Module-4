@@ -10,6 +10,8 @@ To write a Python program to take the radius from the user and find the area of 
 
 ### ALGORITHM
 
+
+
 1. Begin the program.  
 2. Create a class named `umbrella`.  
 3. Define a method `rain(self, r)` inside the class `umbrella` that accepts a radius `r` as an argument.  
