@@ -4,7 +4,7 @@
 ---
 
 ### AIM  
-To create a Python program that prompts the user for a list of grades separated by commas, splits the string into individual grades, and uses exception handling to inform the user if the values they entered cannot be converted to integers.
+write a python program for solving following error using exception handling. Accept two variables a and b eg. a value 5 and b value  hello. 
 
 ---
 
@@ -23,12 +23,19 @@ To create a Python program that prompts the user for a list of grades separated 
 ### PROGRAM
 
 ```
-Reg.No
-Name
-Add Your Code Here
+try:
+    a=eval(input())
+    b=eval(input())
+    print(a+b)
+except:
+    print("cannot add integer with string")
 
 ```
 
 ### OUTPUT
 
+cannot add integer with string
+
 ### RESULT
+
+<img width="742" height="293" alt="image" src="https://github.com/user-attachments/assets/e3e9dd51-e8be-4ee0-bb07-0d7efb77309c" />
